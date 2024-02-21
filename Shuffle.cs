@@ -12,5 +12,10 @@ namespace DUL.Utilities
         {
             return fromThis[R.Next(fromThis.Count())];
         }
+        public static T GiveMeOne<T>(List<T> fromThis)
+        {
+            return fromThis[R.Next(fromThis.Count)];
+        }
+        
     }
 }
